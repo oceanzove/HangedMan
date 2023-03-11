@@ -12,7 +12,7 @@ internal class Solution1
             int count = 6, pob = 0;
             List<string> usedChar = new List<string>();
             char[] stars = new string('*', wordSelect.Length).ToCharArray();
-            Console.WriteLine("Добро пожаловать в иргу Виселица!");
+            Console.WriteLine("Добро пожаловать в игру Виселица!");
             Console.WriteLine("У вас есть 6 попыток угадать слово из {0} букв", wordSelect.Length);
             Console.WriteLine("Загаданное слово " + string.Join("", stars));
             while (true)
